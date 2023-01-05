@@ -1,0 +1,28 @@
+/* li {
+    display: flex;
+    flex-direction: column;
+    
+    width: 200px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+   */
+  .transactionhistory p {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  ol {
+    list-style-type: none;
+    border: 1px solid gray;
+    
+  }
+
+
+
+  .transactionhistory li::before {
+    content: url('https://cdn.quotesgram.com/img/33/22/8174026-f5ed3e895a8f0abea0b21cf7fa3305ea.jpg');
+    float: right;
+  }

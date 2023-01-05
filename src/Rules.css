@@ -1,0 +1,41 @@
+.rules {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    list-style-type: none;
+
+  }
+  
+  .rules h3 {
+    color: #222; /* make the text darker */
+    text-align: center;
+    margin-bottom: 20px;
+    list-style-type: none;
+
+  }
+  
+  .rules ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .rules li {
+    color: #444; /* make the text darker */
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .rules li:before {
+    content: "•";
+    color: #333;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .rules body {
+    background-color: lightgreen;
+    background-image: url("");
+    
+    }

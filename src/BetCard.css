@@ -1,0 +1,27 @@
+.betcard {
+  width: 350px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto;
+  overflow: auto;
+}
+  
+  .betcard p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .betcard__pick {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .betcard__wager,
+  .betcard__odds,
+  .betcard__payout {
+    font-size: 14px;
+    color: rgb(6, 6, 6);
+  }

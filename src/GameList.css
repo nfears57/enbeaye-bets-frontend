@@ -1,0 +1,66 @@
+.api-data:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: lightblue;
+}
+
+
+button {
+    background-color: rgb(111, 198, 227);
+    margin: 5px;
+    padding: 5px;
+  }
+
+  button[data-sport="nhl"] {
+    background-color: lime;
+  }
+  
+  button[data-sport="nba"] {
+    background-color: lightgray;
+  }
+  
+  button[data-sport="ncaab"] {
+    background-color: lightyellow;
+  }
+
+  button[data-sport="shl"] {
+    background-color: lightcoral;
+  }
+  
+  button[data-sport="turkey super league"] {
+    background-color: lightyellow;
+  }
+  
+
+.bookmaker-data {
+    list-style: none;
+    float: center;
+    counter-reset: item; 
+    font-size: small;
+    color: blue;
+    margin: 0;
+    padding: 0;
+    clear: both;
+  }
+
+  .market-data {
+    list-style: none; /* Remove default bullet points */
+    counter-reset: item; /* Reset the numbering */
+    float: left;
+    font-size: 8px;
+    display: block;
+    margin: 0px;
+    color: blue;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+  }
+
+  .bookmaker-data, .market-data {
+    display: inline-block;
+  }

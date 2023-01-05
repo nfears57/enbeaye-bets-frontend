@@ -1,0 +1,61 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form {
+    width: 30%;
+    margin: 50px auto;
+    border: 0px solid rgb(8, 8, 8);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  a {
+    color: royalblue;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .login::before  {
+    content: url('https://cdn.quotesgram.com/img/33/22/8174026-f5ed3e895a8f0abea0b21cf7fa3305ea.jpg');
+    float: right;
+    margin-top: 20px;
+  }
